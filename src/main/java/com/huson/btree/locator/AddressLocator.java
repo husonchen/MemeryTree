@@ -7,7 +7,7 @@ import com.huson.btree.impl.PlusBNode;
  */
 public interface AddressLocator {
 
-    public PlusBNode getBtnodeByAddress(String address);
+    PlusBNode getBtnodeByAddress(String address);
 
-    public String setBtnodeByAddress(String address,PlusBNode BPlusNode);
+    String setBtnodeByAddress(String address,PlusBNode BPlusNode);
 }
